@@ -13,6 +13,11 @@ struct HomeView: View {
             
                 UpperDeckUI()
            
+                MiddleDeckUI()
+                
+                LowerDeckUI()
+            
+            
         }
         .edgesIgnoringSafeArea(.top)
     }

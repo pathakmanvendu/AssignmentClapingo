@@ -15,9 +15,17 @@
 		5C10CC3A2B9AF39700EC13AA /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10CC392B9AF39700EC13AA /* SessionView.swift */; };
 		5C10CC3C2B9AF3A600EC13AA /* ReferEarnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10CC3B2B9AF3A600EC13AA /* ReferEarnView.swift */; };
 		5C10CC3E2B9AF3B300EC13AA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10CC3D2B9AF3B300EC13AA /* ProfileView.swift */; };
+		5C331E462B9B6D9A00C05D8C /* MiddleDeckUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C331E452B9B6D9A00C05D8C /* MiddleDeckUI.swift */; };
+		5C331E492B9B6FC500C05D8C /* MiddleLowerDeckUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C331E482B9B6FC500C05D8C /* MiddleLowerDeckUI.swift */; };
 		5C3FB5662B9B2424008D881B /* UpperDeckUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FB5652B9B2424008D881B /* UpperDeckUI.swift */; };
 		5C3FB5692B9B305B008D881B /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FB5682B9B305B008D881B /* WordView.swift */; };
 		5C3FB56C2B9B3331008D881B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FB56B2B9B3331008D881B /* Word.swift */; };
+		5C74D64F2B9B780B00C684E3 /* LowerDeckUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D64E2B9B780B00C684E3 /* LowerDeckUI.swift */; };
+		5C74D6512B9B78C200C684E3 /* UpComingSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D6502B9B78C200C684E3 /* UpComingSessions.swift */; };
+		5C74D6552B9B7A7400C684E3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D6542B9B7A7400C684E3 /* Card.swift */; };
+		5C74D6572B9B7DAF00C684E3 /* CourseOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D6562B9B7DAF00C684E3 /* CourseOutlineView.swift */; };
+		5CEB5CBE2B9B7FCA00FE5468 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB5CBD2B9B7FB900FE5468 /* CardView.swift */; };
+		5CEB5CC02B9B812500FE5468 /* VideoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB5CBF2B9B812500FE5468 /* VideoLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,8 @@
 		5C10CC392B9AF39700EC13AA /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		5C10CC3B2B9AF3A600EC13AA /* ReferEarnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferEarnView.swift; sourceTree = "<group>"; };
 		5C10CC3D2B9AF3B300EC13AA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5C331E452B9B6D9A00C05D8C /* MiddleDeckUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleDeckUI.swift; sourceTree = "<group>"; };
+		5C331E482B9B6FC500C05D8C /* MiddleLowerDeckUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleLowerDeckUI.swift; sourceTree = "<group>"; };
 		5C3FB5522B9B21B5008D881B /* Poppins-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.otf"; sourceTree = "<group>"; };
 		5C3FB5532B9B21B5008D881B /* Poppins-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.otf"; sourceTree = "<group>"; };
 		5C3FB5542B9B21B5008D881B /* Poppins-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.otf"; sourceTree = "<group>"; };
@@ -52,6 +62,12 @@
 		5C3FB5652B9B2424008D881B /* UpperDeckUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperDeckUI.swift; sourceTree = "<group>"; };
 		5C3FB5682B9B305B008D881B /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		5C3FB56B2B9B3331008D881B /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		5C74D64E2B9B780B00C684E3 /* LowerDeckUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerDeckUI.swift; sourceTree = "<group>"; };
+		5C74D6502B9B78C200C684E3 /* UpComingSessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingSessions.swift; sourceTree = "<group>"; };
+		5C74D6542B9B7A7400C684E3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		5C74D6562B9B7DAF00C684E3 /* CourseOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseOutlineView.swift; sourceTree = "<group>"; };
+		5CEB5CBD2B9B7FB900FE5468 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5CEB5CBF2B9B812500FE5468 /* VideoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +122,27 @@
 		5C10CC3F2B9AF3E600EC13AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5C74D64D2B9B77F700C684E3 /* LowerDeckUI */,
+				5C331E472B9B6F9600C05D8C /* MiddleDeckUI */,
 				5C3FB5672B9B2FCB008D881B /* Non-Used Views */,
 				5C10CC2B2B9AF1A600EC13AA /* ContentView.swift */,
 				5C3FB5682B9B305B008D881B /* WordView.swift */,
+				5CEB5CBD2B9B7FB900FE5468 /* CardView.swift */,
+				5C74D6542B9B7A7400C684E3 /* Card.swift */,
 				5C3FB5652B9B2424008D881B /* UpperDeckUI.swift */,
 				5C10CC372B9AF38600EC13AA /* HomeView.swift */,
 			);
 			name = Views;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5C331E472B9B6F9600C05D8C /* MiddleDeckUI */ = {
+			isa = PBXGroup;
+			children = (
+				5C331E452B9B6D9A00C05D8C /* MiddleDeckUI.swift */,
+				5C331E482B9B6FC500C05D8C /* MiddleLowerDeckUI.swift */,
+			);
+			path = MiddleDeckUI;
 			sourceTree = "<group>";
 		};
 		5C3FB5512B9B2195008D881B /* Fonts */ = {
@@ -157,6 +186,17 @@
 				5C3FB56B2B9B3331008D881B /* Word.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5C74D64D2B9B77F700C684E3 /* LowerDeckUI */ = {
+			isa = PBXGroup;
+			children = (
+				5C74D64E2B9B780B00C684E3 /* LowerDeckUI.swift */,
+				5C74D6502B9B78C200C684E3 /* UpComingSessions.swift */,
+				5CEB5CBF2B9B812500FE5468 /* VideoLibrary.swift */,
+				5C74D6562B9B7DAF00C684E3 /* CourseOutlineView.swift */,
+			);
+			path = LowerDeckUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,13 +270,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3FB5692B9B305B008D881B /* WordView.swift in Sources */,
+				5C331E462B9B6D9A00C05D8C /* MiddleDeckUI.swift in Sources */,
+				5C74D64F2B9B780B00C684E3 /* LowerDeckUI.swift in Sources */,
+				5C74D6572B9B7DAF00C684E3 /* CourseOutlineView.swift in Sources */,
+				5C74D6512B9B78C200C684E3 /* UpComingSessions.swift in Sources */,
 				5C3FB5662B9B2424008D881B /* UpperDeckUI.swift in Sources */,
 				5C3FB56C2B9B3331008D881B /* Word.swift in Sources */,
 				5C10CC382B9AF38600EC13AA /* HomeView.swift in Sources */,
+				5CEB5CC02B9B812500FE5468 /* VideoLibrary.swift in Sources */,
+				5C331E492B9B6FC500C05D8C /* MiddleLowerDeckUI.swift in Sources */,
 				5C10CC2C2B9AF1A600EC13AA /* ContentView.swift in Sources */,
+				5C74D6552B9B7A7400C684E3 /* Card.swift in Sources */,
 				5C10CC2A2B9AF1A600EC13AA /* AssignmentClapingoApp.swift in Sources */,
 				5C10CC3A2B9AF39700EC13AA /* SessionView.swift in Sources */,
 				5C10CC3E2B9AF3B300EC13AA /* ProfileView.swift in Sources */,
+				5CEB5CBE2B9B7FCA00FE5468 /* CardView.swift in Sources */,
 				5C10CC3C2B9AF3A600EC13AA /* ReferEarnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

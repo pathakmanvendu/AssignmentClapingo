@@ -13,8 +13,6 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment:.bottomLeading) {
             
-            
-            
             TabView(selection: $selectIndex){
                 HomeView()
                     .tabItem {
@@ -55,6 +53,8 @@ struct ContentView: View {
                 .animation(.default)
             
         }
+        
+        
     }
 }
 

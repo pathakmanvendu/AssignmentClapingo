@@ -8,7 +8,7 @@
 import Foundation
 
 struct Word: Codable {
-    let id: String
+    let _id: String
     let tags: [String]
     let content: String
     let author: String
