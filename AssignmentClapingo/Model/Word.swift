@@ -7,6 +7,7 @@
 
 import Foundation
 
+//This is Word structure which is the model used for storing JSON Data.
 struct Word: Codable {
     let _id: String
     let tags: [String]

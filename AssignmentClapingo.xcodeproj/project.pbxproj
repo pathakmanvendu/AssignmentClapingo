@@ -22,7 +22,6 @@
 		5C3FB56C2B9B3331008D881B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FB56B2B9B3331008D881B /* Word.swift */; };
 		5C74D64F2B9B780B00C684E3 /* LowerDeckUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D64E2B9B780B00C684E3 /* LowerDeckUI.swift */; };
 		5C74D6512B9B78C200C684E3 /* UpComingSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D6502B9B78C200C684E3 /* UpComingSessions.swift */; };
-		5C74D6552B9B7A7400C684E3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D6542B9B7A7400C684E3 /* Card.swift */; };
 		5C74D6572B9B7DAF00C684E3 /* CourseOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C74D6562B9B7DAF00C684E3 /* CourseOutlineView.swift */; };
 		5C778DBD2B9C4F2C005D9774 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C778DBB2B9C4F2C005D9774 /* Poppins-Regular.ttf */; };
 		5C778DBE2B9C4F2C005D9774 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C778DBC2B9C4F2C005D9774 /* Poppins-Black.ttf */; };
@@ -49,7 +48,6 @@
 		5C3FB56B2B9B3331008D881B /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		5C74D64E2B9B780B00C684E3 /* LowerDeckUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerDeckUI.swift; sourceTree = "<group>"; };
 		5C74D6502B9B78C200C684E3 /* UpComingSessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingSessions.swift; sourceTree = "<group>"; };
-		5C74D6542B9B7A7400C684E3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		5C74D6562B9B7DAF00C684E3 /* CourseOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseOutlineView.swift; sourceTree = "<group>"; };
 		5C778DBB2B9C4F2C005D9774 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		5C778DBC2B9C4F2C005D9774 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				5C3FB5672B9B2FCB008D881B /* Non-Used Views */,
 				5C10CC2B2B9AF1A600EC13AA /* ContentView.swift */,
 				5CEB5CBD2B9B7FB900FE5468 /* CardView.swift */,
-				5C74D6542B9B7A7400C684E3 /* Card.swift */,
 				5C8A8B622B9C3BE000DD7AA7 /* SheetView.swift */,
 				5C10CC372B9AF38600EC13AA /* HomeView.swift */,
 			);
@@ -266,7 +263,6 @@
 				5C331E492B9B6FC500C05D8C /* MiddleLowerDeckUI.swift in Sources */,
 				5C8A8B632B9C3BE000DD7AA7 /* SheetView.swift in Sources */,
 				5C10CC2C2B9AF1A600EC13AA /* ContentView.swift in Sources */,
-				5C74D6552B9B7A7400C684E3 /* Card.swift in Sources */,
 				5C10CC2A2B9AF1A600EC13AA /* AssignmentClapingoApp.swift in Sources */,
 				5C10CC3A2B9AF39700EC13AA /* SessionView.swift in Sources */,
 				5C10CC3E2B9AF3B300EC13AA /* ProfileView.swift in Sources */,

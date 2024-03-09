@@ -66,6 +66,8 @@ struct WordView: View {
         }
     }
     
+    //This is the function that is used to fetch JSON Data.
+    
     func fetchData() {
         guard let url = URL(string: "https://api.quotable.io/random") else {return}
         URLSession.shared.dataTask(with: url) { data, response, error in

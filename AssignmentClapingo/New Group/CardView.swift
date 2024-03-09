@@ -49,3 +49,14 @@ struct CardView2: View {
     }
 }
 
+
+struct Card: View {
+    var body: some View {
+        ZStack {
+                   RoundedRectangle(cornerRadius: 25)
+                       .fill(.white)
+                       .shadow(radius: 5)
+               }
+               .frame(width: 350, height: 200)
+    }
+}
