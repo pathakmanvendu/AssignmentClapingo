@@ -8,28 +8,63 @@
 import SwiftUI
 
 struct MiddleLowerDeckUI: View {
+    @State private var openSheet = false
     var body: some View {
         VStack{
-            VStack{
-                Text("Current Plan")
-                    .foregroundColor(Color("Color1"))
-                Text("3 Days/week ")
-                    .foregroundColor(Color("Color1"))
-                    .font(.custom("Poppins-Regular", size: 30))
+            HStack {
+                VStack(alignment:.leading){
+                    Text("Current Plan")
+                        .font(.custom("Poppins-Regular", size: 20))
+                        .foregroundColor(Color("Color1"))
+                    Text("3 Days/week ")
+                        .foregroundColor(Color("Color1"))
+                        .font(.custom("Poppins-Regular", size: 30))
+                    
+                    
+                }
+                .padding()
                 
+                Spacer()
+                Spacer()
                 
+                Button {
+                    openSheet.toggle()
+                } label: {
+                    Text("View More")
+                        .font(.custom("Poppins-Regular", size: 15))
+                    
+                        .padding(10)
+                        .foregroundColor(Color("Color1"))
+                        .background(
+                           Rectangle()
+                            .cornerRadius(15)
+                            //.background(Color("Color1"))
+                            .opacity(0.1)
+                        )
+                        .shadow(radius: 5)
+                       
+                }
+                .sheet(isPresented: $openSheet) {
+                   SheetView()
+                        .presentationDetents([.medium, .large])
+                }
+                
+            
+
             }
-            .padding()
             
             HStack{
                 VStack{
                     Text("Start Date:")
+                        .font(.custom("Poppins-Regular", size: 15))
                         .foregroundColor(Color("Color1"))
                     Text("20/03/21")
-                        .bold()
+                        .font(.custom("Poppins-Bold", size: 15))
+                      
                 }
                 VStack{
                     Text("4 weeks")
+                        .font(.custom("Poppins-Regular", size: 15))
                         .foregroundColor(Color("Color1"))
                     Line()
                         .stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
@@ -38,9 +73,11 @@ struct MiddleLowerDeckUI: View {
                 }
                 VStack{
                     Text("End Date:")
+                        .font(.custom("Poppins-Regular", size: 15))
                         .foregroundColor(Color("Color1"))
                     Text("20/04/21")
-                        .bold()
+                        .font(.custom("Poppins-Bold", size: 15))
+                      
                 }
             }
             .padding()
@@ -49,14 +86,17 @@ struct MiddleLowerDeckUI: View {
             HStack{
                 VStack{
                     Text("Sessions left:")
+                        .font(.custom("Poppins-Regular", size: 13))
                         .foregroundColor(Color("Color1"))
                         
                     Text("21")
+                        .font(.custom("Poppins-Regular", size: 15))
                 }
                 Divider()
                     .frame(width: 5, height: 40)
                 VStack{
                     Text("Total Sessions:")
+                        .font(.custom("Poppins-Regular", size: 13))
                         .foregroundColor(Color("Color1"))
                     Text("22")
                 }
@@ -64,9 +104,11 @@ struct MiddleLowerDeckUI: View {
                     .frame(width: 5,height: 40)
                 VStack{
                     Text("Backlog Sessions")
+                        .font(.custom("Poppins-Regular", size: 13))
                         .foregroundColor(Color("Color1"))
                     HStack {
                         Text("22")
+                            .font(.custom("Poppins-Regular", size: 15))
                         Image(systemName: "questionmark.circle")
                     }
                 }

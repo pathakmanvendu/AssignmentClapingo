@@ -7,15 +7,16 @@
 
 import SwiftUI
 
+
 struct WordView: View {
     @State private var data: Word = Word(_id: "", tags: [""], content: "", author: "", authorSlug: "", length: 0, dateAdded: "", dateModified: "")
     var body: some View {
-        ZStack{
+        ZStack(alignment: .topLeading){
             RoundedRectangle(cornerRadius: 20)
                 .frame(width:350, height: 180)
                 .foregroundColor(Color("Color3"))
              
-            VStack{
+            VStack(alignment: .leading){
                 HStack{
                     Text("Word")
                         .foregroundColor(.gray)
@@ -34,15 +35,28 @@ struct WordView: View {
                         .font(.custom("Poppins-Regular", size: 20))
                 }
                 
-                
-                Text(data.tags[0])
-                    .foregroundColor(Color("Color1"))
-                    .font(.custom("Poppins-Black", size: 30))
+                HStack{
+                    Text(data.tags[0])
+                        .foregroundColor(Color("Color1"))
+                        .font(.custom("Poppins-Regular", size: 30))
+                    
+                    Button {
+                        print("Volume button is pressed")
+                        
+                    } label: {
+                        Image(systemName: "speaker.wave.2.circle")
+                            .resizable()
+                            .frame(width: 30, height:30)
+                            .foregroundColor(.gray)
+                    }
+                }
                 
                 Text(data.content)
                     .foregroundColor(.white)
-                    .font(.custom("Poppins-Regular", size: 15))
+                    .font(.custom("Poppins-Regular", size: 12))
+                    .frame(width: 300 ,alignment: .leading)
             }
+            .padding()
             
             
             

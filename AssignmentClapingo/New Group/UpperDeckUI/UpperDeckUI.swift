@@ -31,7 +31,7 @@ struct UpperDeckUI: View {
                 .padding(.trailing)
                 
                 Text("Morning Student,")
-                    .font(.custom("Poppins-Black", size: 35))
+                    .font(.custom("Poppins-Bold", size: 35))
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading)

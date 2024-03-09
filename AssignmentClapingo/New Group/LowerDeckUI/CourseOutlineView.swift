@@ -13,13 +13,20 @@ struct CourseOutlineView: View {
         VStack{
             HStack{
                 Text("Course Outline")
-                    .font(.custom("Poppins-Black", size: 25))
+                    .font(.custom("Poppins-Bold", size: 25))
                     .bold()
                 
                 Spacer()
                 
-                Text("view all")
-                    .foregroundColor(Color("Color1"))
+                
+                Button {
+                    print("couse outline view all pressed")
+                } label: {
+                    Text("view all")
+                        .font(.custom("Poppins-Regular", size: 15))
+                        .foregroundColor(Color("Color1"))
+                }
+
             }
             .padding()
             

@@ -13,13 +13,21 @@ struct VideoLibrary: View {
         VStack{
             HStack{
                 Text("Video Library")
-                    .font(.custom("Poppins-Black", size: 25))
+                    .font(.custom("Poppins-Bold", size: 25))
                     .bold()
                 
                 Spacer()
                 
-                Text("view all")
-                    .foregroundColor(Color("Color1"))
+                Button {
+                    
+                } label: {
+                    Text("view all")
+                        .font(.custom("Poppins-Regular", size: 15))
+                        .foregroundColor(Color("Color1"))
+                }
+
+                
+                
             }
             .padding()
             ScrollView(.horizontal) {
